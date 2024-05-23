@@ -1,7 +1,23 @@
-# Vue 3 + Vite
+```
+# trello-like-todo-list--vue-3-tw
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A demo version with minimal features, based on a fake database from [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com).
 
-## Recommended IDE Setup
+For login, data from `/users` is used, utilizing username and phone for authentication.\
+The login form is pre-filled for ease of use.\
+The database consists of tasks (todos) retrieved from `/todos`.\
+This database can be filtered using 3 criteria: id, completed status, and text matching the title field.\
+Logic for adding new Todo tasks is implemented. The added tasks are saved only until the page is refreshed.\
+Saving to favorites is supported, functioning with local storage.\
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+## Project Setup
+
+```sh
+yarn install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+yarn run dev
+```
