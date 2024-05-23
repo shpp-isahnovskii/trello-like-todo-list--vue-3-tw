@@ -1,4 +1,3 @@
-```
 # trello-like-todo-list--vue-3-tw
 
 A demo version with minimal features, based on a fake database from [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com).
